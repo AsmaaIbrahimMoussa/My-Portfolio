@@ -255,7 +255,7 @@
   <section class="hero">
     <div class="hero-text">
       <h1>Hi, I’m <span style="color:white">Asmaa Ibrahim</span></h1> 
-      <p>AI & Machine Learning Engineer with a passion for NLP and Generative AI. Skilled in Python, TensorFlow, and PyTorch.</p> 
+      <p>AI & Machine Learning Engineer with a passion for NLP and Generative AI.</p> 
       <div class="hero-buttons">
         <button>
           <a href="https://drive.google.com/drive/folders/1LrP1N-2ANtj9h9avjNYaRDLHd_1yfBj0", target="_blank">Open CV</a>
@@ -281,34 +281,133 @@
   <section id="skills">
     <h2>My Skills</h2>
     <div class="skills-grid">
-      <div class="skill"><h3>Programming Languages</h3><h4>Python, Java, C++, C</h4></div>
-      <div class="skill"><h3>Frameworks & Libraries</h3><h4>TensorFlow, PyTorch, Keras, Scikit-learn, Streamlit</h4></div>
-      <div class="skill"><h3>Data Handling & Visualization</h3><h4>Pandas, NumPy, EDA, Data Cleaning, Normalization, Augmentation, Matplotlib, Seaborn</h4></div>
-      <div class="skill"><h3>Machine Learning (ML)</h3><h4>Supervised (Regression, Classification), Unsupervised (Clustering)</h4></div>
-      <div class="skill"><h3>Deep Learning (DL)</h3><h4>Neural Networks, CNN, RNN, LSTM, Transformers</h4></div>
-      <div class="skill"><h3>Large Language Models (LLMs)</h3><h4>GPT, LLaMA3, Gemini, BERT</h4></div>
-      <div class="skill"><h3>Web Development</h3><h4>HTML, CSS, JavaScript, Bootstrap, Django, FastAPI, Flask</h4></div>
-      <div class="skill"><h3>Tools & Platforms</h3><h4>Jupyter, Google Colab, Git, GitHub, AWS, LangChain, CI/CD</h4></div>
+
+      <div class="skill">
+        <h3>Programming & CS Fundamentals</h3>
+        <h4>Python, Java, C++, C, OOP, Data Structures & Algorithms</h4>
+      </div>
+
+      <div class="skill">
+        <h3>AI & ML</h3>
+        <h4>Scikit-learn, TensorFlow, PyTorch, Transformers, NLP, RAG, LLM Fine-tuning, OCR</h4>
+      </div>
+
+      <div class="skill">
+        <h3>Data Handling & Visualization</h3>
+        <h4>Pandas, NumPy, EDA, Data Cleaning, Normalization, Augmentation, Matplotlib, Seaborn</h4>
+      </div>
+
+      <div class="skill">
+        <h3>Large Language Models (LLMs)</h3>
+        <h4>GPT, LLaMA3, Gemini, BERT</h4>
+      </div>
+
+      <div class="skill">
+        <h3>Frameworks & APIs</h3>
+        <h4>FastAPI, Flask, Django, Streamlit, LangChain, Groq</h4>
+      </div>
+
+      <div class="skill">
+        <h3>Web Development</h3>
+        <h4>HTML, CSS, JavaScript, Bootstrap</h4>
+      </div>
+
+      <div class="skill">
+        <h3>Tools & Cloud Platforms</h3>
+        <h4>Jupyter, Google Colab, Git & GitHub, AWS, Docker, Firebase, Linux CLI, Qdrant, CI/CD</h4>
+      </div>
+
     </div>
   </section>
 
-  <!-- Projects Section -->
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="projects-grid">
-      <div class="project"><h3>AI Assistant App</h3><p>Mobile app using Llama3 and Flutter.</p></div>
-      <div class="project"><h3>Text Classifier</h3><p>Model trained using DistilBERT and LoRA.</p></div>
-      <div class="project"><h3>OCR APP</h3><p>Arabic OCR using Gemini and Streamlit.</p></div>
-      <div class="project"><h3>DOC IQ</h3><p>Document chatbot with LLaMa3.</p></div>
-      <div class="project"><h3>Taxi Fare Predictor</h3><p>Prediction system built with Django.</p></div>
-      <div class="project"><h3>Hotel Booking Cancellation Prediction</h3><p>Web app using HTML and CSS.</p></div>
+<!-- Projects Section -->
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="projects-grid">
+
+    <div class="project">
+      <h3>AI Assistant App</h3>
+      <p>
+        A mobile application built with <strong>LLaMA3</strong> (via Groq) and <strong>Flutter</strong>, acting as a personal AI assistant. 
+        Features include sending emails, managing calendar events, generating images, summarizing YouTube videos,
+        performing web searches, assisting in shopping by comparing products, and providing weather updates with clothing recommendations. 
+        The assistant also understands images containing either text or objects and generates concise summaries of both. 
+        Integrated with <strong>Firebase</strong> for real-time data handling.
+      </p>
     </div>
-  </section>
+
+    <div class="project">
+      <h3>Context Aware Chatbot</h3>
+      <p>
+        Engineered an intelligent <strong>ReAct agent</strong> using <strong>LangChain, Groq, and Tavily</strong> that leverages tool-based reasoning to perform autonomous web searches 
+        and deliver context-rich, verified answers. Designed to handle complex queries with multi-step reasoning.
+      </p>
+    </div>
+
+    <div class="project">
+      <h3>Python Code Assistant</h3>
+      <p>
+        Developed a Python application that acts as a multi-functional code assistant using <strong>LangGraph, RAG, and Qdrant</strong>. 
+        Generates relevant code snippets, provides explanations, and achieved <strong>94% accuracy</strong> in test cases.
+      </p>
+    </div>
+
+    <div class="project">
+      <h3>Handwritten OCR App</h3>
+      <p>
+        Built a multi-modal OCR system with <strong>Gemini</strong> and <strong>Streamlit</strong>, enhanced with <strong>FPDF</strong> for exporting extracted text. 
+        Specifically designed to address the complexities of Arabic handwriting and structured forms.
+      </p>
+    </div>
+
+    <div class="project">
+      <h3>AI Content Moderation App</h3>
+      <p>
+        A full-stack application leveraging <strong>Gemini, Llama Guard, BLIP,</strong> and <strong>Streamlit</strong> to classify both text and images as 'safe' or 'unsafe'. 
+        Implements a multi-modal pipeline to ensure robust AI-powered content moderation.
+      </p>
+    </div>
+    <div class="project">
+      <h3>Handwritten OCR App</h3>
+      <p>
+        An Arabic Optical Character Recognition application developed using <strong>Gemini API</strong> and <strong>Streamlit</strong>. 
+        Supports text extraction from scanned images and handwritten notes, with post-processing for accuracy improvement.
+      </p>
+    </div>
+
+    <div class="project">
+      <h3>Doc IQ</h3>
+      <p>
+        A document-based chatbot powered by <strong>LLaMA3</strong>, capable of answering questions and providing summaries from uploaded documents. 
+        Implemented Retrieval-Augmented Generation (<strong>RAG</strong>) for contextual accuracy and real-time response.
+      </p>
+    </div>
+
+    <div class="project">
+      <h3>Taxi Fare Predictor</h3>
+      <p>
+        A predictive system developed with <strong>Django</strong> that estimates taxi fares based on trip details such as distance, duration, and location. 
+        Built with regression models and deployed as a web app for real-world usability.
+      </p>
+    </div>
+
+    <div class="project">
+      <h3>Hotel Booking Cancellation Prediction</h3>
+      <p>
+        A machine learning project deployed as a simple web application using <strong>HTML/CSS</strong>. 
+        The model predicts the likelihood of hotel booking cancellations based on customer behavior and booking patterns, 
+        helping hotels optimize resource allocation.
+      </p>
+    </div>
+  </div>
+</section>
+
 
   <!-- Certificates Section -->
   <section id="certs">
     <h2>Certificates</h2>
     <div class="certs-grid">
+      <div class="cert"><h3>NLP</h3><p>Cellula</p><a href="https://drive.google.com/file/d/1cmEBspqW6d7-8tE0Be1CpOVketMD8SrH/view?usp=drive_link" target="_blank" class="view-btn">View Certificate</a></div>
       <div class="cert"><h3>Generative AI</h3><p>AWS & Udacity</p><a href="https://drive.google.com/drive/folders/1aDpNcCIlnSTaAZDVXK_WUoTXLs_8Tj-w?usp=drive_link" target="_blank" class="view-btn">View Certificate</a></div>
       <div class="cert"><h3>Machine Learning</h3><p>Cellula</p><a href="https://drive.google.com/drive/folders/1-wICCG2q8OkjnFwfVzSJygQFTnyKhQfs?usp=drive_link" target="_blank" class="view-btn">View Certificate</a></div>
       <div class="cert"><h3>Artificial Intelligence</h3><p>ALX</p><a href="https://drive.google.com/drive/folders/1OCTzxrmwLjoRoqRmfVUDvgCeJ-KnqDPJ?usp=drive_link" target="_blank" class="view-btn">View Certificate</a></div>
